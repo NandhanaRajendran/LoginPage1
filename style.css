@@ -210,6 +210,9 @@ input{
 
 
 @media (max-width: 768px) {
+    html{
+        scroll-behavior: smooth;
+    }
     .header {
         padding: 20px 40px;
     }
@@ -394,5 +397,9 @@ input{
     
     .register-link p a:hover{
         text-decoration: underline;
+    }
+
+    html{
+        scroll-behavior: smooth;
     }
 }
