@@ -277,6 +277,9 @@ input{
 
 /* Extra small screens */
 @media (max-width: 480px) {
+    html{
+        scroll-behavior: smooth;
+    }
     .navbar-toggler-icon{
         filter: invert(1);
     }
@@ -417,9 +420,5 @@ input{
     
     .register-link p a:hover{
         text-decoration: underline;
-    }
-
-    html{
-        scroll-behavior: smooth;
     }
 }
