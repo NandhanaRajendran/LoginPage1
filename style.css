@@ -271,6 +271,8 @@ input{
         text-align: center;
         background-attachment: fixed;
         overflow: hidden;
+        background-size: cover;
+        background-position: center;
     }
 
     /* Adjust content padding and font size */
@@ -315,11 +317,11 @@ input{
 
     /* Adjust input and label sizes */
     .input-box input {
-        padding: 0 20px 0 30px;
-        font-size: 0.8em;
+        padding: 0 25px 0 40px;
+        font-size: 1em;
     }
 
     .input-box label {
-        font-size: 0.7em;
+        font-size: 0.9em;
     }
 }
